@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/verificationtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:text="1" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/verificationtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+        android:text="2" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/verificationtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="3" />
+
+    <EditText
+        android:id="@+id/editTextverification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/verificationtext"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/verificationtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Not Verified" />
+
+    <Button
+        android:id="@+id/buttonverify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/verificationtext"
+        android:layout_marginLeft="250dp"
+        android:text="VERIFY" />
+
+    <EditText
+        android:id="@+id/editTextdatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verificationtext"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/checkdatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verificationtext"
+        android:layout_marginTop="100dp"
+        android:text="Not In Database" />
+
+    <Button
+        android:id="@+id/buttondatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verificationtext"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="60dp"
+        android:text="CHECK" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verificationtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp" />
+
+    <TextView
+        android:id="@+id/colortext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/verificationtext"
+        android:layout_marginBottom="170dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verificationtext"
+        android:layout_marginTop="150dp"
+        android:text="TextView" />
+
+
+
+</RelativeLayout>
+
