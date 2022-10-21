@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/id_dataTextName"
+        android:layout_width="80dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="40dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/id_dataTextSeconds"
+        app:layout_constraintEnd_toStartOf="@+id/id_dataTextSeconds"
+        app:layout_constraintTop_toTopOf="@+id/id_dataTextSeconds"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/id_dataTextSeconds"
+        android:layout_width="80dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="88dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id_dataTextDistance"
+        android:layout_width="80dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="40dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/id_dataTextSeconds"
+        app:layout_constraintStart_toEndOf="@+id/id_dataTextSeconds"
+        app:layout_constraintTop_toTopOf="@+id/id_dataTextSeconds"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/id_imageName"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/id_dataTextName"
+        app:layout_constraintEnd_toEndOf="@+id/id_dataTextName"
+        app:layout_constraintStart_toStartOf="@+id/id_dataTextName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+    <ImageView
+        android:id="@+id/id_imageDistance"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/id_dataTextDistance"
+        app:layout_constraintEnd_toEndOf="@+id/id_dataTextDistance"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/id_dataTextDistance"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+    <ImageView
+        android:id="@+id/id_imageTime"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/id_dataTextSeconds"
+        app:layout_constraintEnd_toEndOf="@+id/id_dataTextSeconds"
+        app:layout_constraintStart_toStartOf="@+id/id_dataTextSeconds"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

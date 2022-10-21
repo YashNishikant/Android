@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "531753339801",
+    "project_id": "workout-finalproject",
+    "storage_bucket": "workout-finalproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531753339801:android:c7f7a4aee33800cbd96108",
+        "android_client_info": {
+          "package_name": "com.example.final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531753339801-57djfkat0i77255ktd9l3qalh5k7s2qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_k4BwDl0IJ93noQ5KC-xak2eiKFeR-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531753339801-57djfkat0i77255ktd9l3qalh5k7s2qr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
